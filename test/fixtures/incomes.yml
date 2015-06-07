@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  month_id: 1
+  amt_actual: 1
+  pay_date: 2015-06-06
+  source: MyString
+  amt_budget: 1
+  name: MyString
+
+two:
+  month_id: 1
+  amt_actual: 1
+  pay_date: 2015-06-06
+  source: MyString
+  amt_budget: 1
+  name: MyString

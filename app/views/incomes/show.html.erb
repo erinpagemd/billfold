@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Month:</strong>
+  <%= @income.month_id %>
+</p>
+
+<p>
+  <strong>Amt actual:</strong>
+  <%= @income.amt_actual %>
+</p>
+
+<p>
+  <strong>Pay date:</strong>
+  <%= @income.pay_date %>
+</p>
+
+<p>
+  <strong>Source:</strong>
+  <%= @income.source %>
+</p>
+
+<p>
+  <strong>Amt budget:</strong>
+  <%= @income.amt_budget %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @income.name %>
+</p>
+
+<%= link_to 'Edit', edit_income_path(@income) %> |
+<%= link_to 'Back', incomes_path %>

@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Month:</strong>
+  <%= @expense.month_id %>
+</p>
+
+<p>
+  <strong>Amt actual:</strong>
+  <%= @expense.amt_actual %>
+</p>
+
+<p>
+  <strong>Due date:</strong>
+  <%= @expense.due_date %>
+</p>
+
+<p>
+  <strong>Exp category:</strong>
+  <%= @expense.exp_category %>
+</p>
+
+<p>
+  <strong>Amt budget:</strong>
+  <%= @expense.amt_budget %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @expense.name %>
+</p>
+
+<%= link_to 'Edit', edit_expense_path(@expense) %> |
+<%= link_to 'Back', expenses_path %>
