@@ -17,13 +17,10 @@
       </div>
 
       <div>
-        Budgeted Amount: $<%= expense.amt_budget %>
+        Budgeted Amount: $<%= expense.amount %>
       </div>
       <div>
-        Actual Amount: $<%= expense.amt_actual %>
-      </div>
-      <div>
-        Category: <%= expense.exp_category %>
+        Category: <%= expense.category %>
       </div>
       <div>
         <%= link_to 'Edit', edit_expense_path(expense) %>

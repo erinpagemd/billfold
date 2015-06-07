@@ -17,60 +17,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-////////////// EXPENSE //////////////
-
-#expense-index {
-  .each-expense {
-    display: inline-block;
-    margin: 2%;
-    background-color: lightgrey;
-    font-size: 2rem;
-
-    .each-header {
-      background-color: grey;
-      padding: 2%;
-    }
-  }
-}
-
-
-////////////// MONTH //////////////
-
-#month-index {
-  .each-month {
-    padding: 1%;
-    margin: 1%;
-    background-color: lightgrey;
-    width: 30%;
-    display: inline-block;
-  }
-}
-
-#month-new {
-}
-
-#month-show {
-
-  .income-div, .expense-div {
-    background-color: lightgrey;
-    height: 100%;
-  }
-
-  .bills, .pay {
-    margin: 2% 1%;
-
-  }
-
-  .bills {
-    background-color: red;
-  }
-
-  .pay {
-    background-color: green;
-  }
-
-}
-
 ////////// HTML ELEMENTS ////////////
 body {
   text-align: center;
